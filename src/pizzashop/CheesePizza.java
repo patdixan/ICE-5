@@ -15,9 +15,8 @@ public class CheesePizza extends Pizza
         super();
         super.addTopping("cheese");
     }
-    public void bake(int temp)
-    {
-        super.bakeTemp = temp;
+    public void bake(int temp) {
+        super.bake(temp);
         //do some baking here, code not implemented yet
         //not necessary for the review
     }
